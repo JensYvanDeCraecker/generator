@@ -3,10 +3,10 @@ var stars = new List<int>();
 var currentLotteryDate = GetCurrentLotteryDate();
 var seed = (currentLotteryDate - new DateTime(1998, 06, 30)).Ticks;
 var rnd = new Random((int)seed);
-var maxRows = 9;
+var maxRows = 10;
 var maxNumbers = 50;
 var maxStars = 12;
-var maxNumbersPerRow = 6;
+var maxNumbersPerRow = 5;
 var maxStarsPerRow = 2;
 
 Console.WriteLine($"Your lucky numbers for {currentLotteryDate}");
